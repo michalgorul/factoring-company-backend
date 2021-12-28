@@ -1,17 +1,30 @@
+<div id="top"></div>
+
 # Application for managing a factoring company
 
 The main part of the work will be designing and developing a web application. The system will cover part of the factoring company's business processes. Among others, it will include generating contracts and accounting documents or automation of settlements of payments, remunerations, interest and sending money to the clients. The aim of the project is to reduce manual work, which will result in a much faster execution of orders and lower costs for a potential factoring company. As a security layer i use Spring Security with JWT.
 
+
+#### Availability
+API is available as [Heroku app](https://factoring-company-backend.herokuapp.com/)
+
 ## Database diagram
 
-![Database diagram](https://user-images.githubusercontent.com/43811151/119269484-31663f00-bbf8-11eb-89a0-5fe542b29d9e.png)
+![Database diagram](https://user-images.githubusercontent.com/43811151/147573672-678c26bb-3b25-4974-8c84-0833cae13e7a.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Use case diagram
 
-![Use case diagram](https://user-images.githubusercontent.com/43811151/119234776-da953280-bb2f-11eb-8961-ab117555f179.png)
+![Use case diagram](https://user-images.githubusercontent.com/43811151/147573633-09e21e7c-e94a-4ada-b5e1-787f7db731e2.png)
 
-## Home page look
-https://user-images.githubusercontent.com/43811151/129640485-f321d0e5-ff48-4281-91c6-e933ce075620.mp4
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+Michał Góral - michgor088@student.polsl.pl
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Sample code snippents
 
@@ -137,7 +150,7 @@ public interface UserRepository extends JpaRepository<UserEntity, Long> {
         }
     }
 ```
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
